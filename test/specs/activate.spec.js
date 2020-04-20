@@ -13,7 +13,7 @@ describe('LOGIN', () => {
         browser.$(`//span[@class='RveJvd snByac']`).click();
         browser.pause(3000);
         browser.$(`//span[contains(text(),'Dozorro.org')]`).click();
-        browser.pause(30000);
+        browser.pause(3000);
     })
 
 });
